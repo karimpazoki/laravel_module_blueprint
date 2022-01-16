@@ -15,7 +15,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-You can convert existing Laravel apps into modular applications using "Laravel Module Blueprint". This package allows you to write modular applications with laravel and new directories will be created under `app/Modules` with the following structure:
+You can convert existing Laravel apps into modular applications using "Laravel Module Blueprint". This package allows you to write modular applications with laravel and new module directories will be created under `app/Modules` with the following structure:
 
 ```
   app

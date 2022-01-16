@@ -95,7 +95,7 @@ You can convert existing Laravel apps into modular applications using "Laravel M
 
 ### Usage
  1. use `php artisan module:init` to initial.
- 2. use `php artisan make:module` to create module blueprint.
+ 2. use `php artisan make:module Post` to create module blueprint.
 <!-- LICENSE -->
 ## License
 

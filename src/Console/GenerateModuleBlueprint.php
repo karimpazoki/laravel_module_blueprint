@@ -7,5 +7,5 @@ use Illuminate\Support\Facades\File;
 
 class GenerateModuleBlueprint extends Command
 {
-    protected $signature = 'make:module';
+    protected $signature = 'make:module {name}';
 }

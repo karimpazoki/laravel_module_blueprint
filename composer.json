@@ -1,0 +1,24 @@
+{
+    "name": "kaafochino/module_blueprint",
+    "description": "A starter blueprint for converting Laravel to a modular framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karim Pazoki",
+            "email": "pazoki.karim72@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kaafochino\\ModuleBlueprint\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kaafochino\\ModuleBlueprint\\ModuleBlueprintServiceProvider"
+            ]
+        }
+    }
+}

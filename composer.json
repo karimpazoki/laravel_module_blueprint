@@ -20,5 +20,14 @@
                 "Kaafochino\\ModuleBlueprint\\ModuleBlueprintServiceProvider"
             ]
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kaafochino\\ModuleBlueprint\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.24",
+        "phpunit/phpunit": "^9.5"
     }
 }
